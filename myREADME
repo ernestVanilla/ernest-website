@@ -1,0 +1,16 @@
+
+scripts
+
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test --env=jsdom",
+"eject": "react-scripts eject"
+  
+serve static build server
+
+npm run build
+serve -s build
+
+*** TO START WORKING ON THIS ***
+
+`npm run start`
