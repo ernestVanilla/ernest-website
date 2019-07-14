@@ -9,8 +9,13 @@ const Hobbies = () => (
     <div className="divider"></div>
     <div className="divider"></div>
     <div className="divider"></div>
-    <div className="section">
-
+    <div className="section"><br />
+      <div className="row">
+        <div className="col s12 center">
+          <br />
+          <h4>This area is currently under construction!</h4>
+        </div>
+      </div>
     </div>
   </section>
 );

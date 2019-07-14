@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Admin = () => (
   <div className="outer">
-    <Link exact to='/web/home'
+    <Link exact to='/'
       className="admin-btn waves-effect waves-light btn right modal-trigger" href="#modal1">Website</Link>
     {/* <Link exact to='/admin'
       className="admin-btn waves-effect waves-light btn right modal-trigger" href="#modal1">Admin</Link> */}
@@ -28,8 +28,8 @@ const Admin = () => (
 ReactDOM.render(
   <BrowserRouter> 
     <Switch>
-      <Route path='/web' component={App}></Route>
       <Route exact path='/admin' render={Admin}></Route>
+      <Route path='/' component={App}></Route>
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

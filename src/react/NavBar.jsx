@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink, Switch, Route } from 'react-router-dom';
-import Home from './content/Home.jsx';
-import About from './content/About.jsx';
-import Projects from './content/Projects.jsx';
-import Hobbies from './content/Hobbies.jsx';
-import Contact from './content/Contact.jsx';
-import { NAV_COLORS } from './global/Constants.js';
+import Home from './content/Home';
+import About from './content/About';
+import { Projects } from './content/Projects/Projects';
+import Hobbies from './content/Hobbies';
+import Contact from './content/Contact';
+import { NAV_COLORS } from './global/Constants';
 
 
 /*
@@ -52,7 +52,7 @@ export const Main = () => (
     <Switch>
         <Route exact path='/web/home' component={Home}></Route>
         <Route exact path='/web/about' component={About}></Route>
-        <Route exact path='/web/projects' component={Projects}></Route>
+        <Route path='/web/projects' component={Projects}></Route>
         <Route exact path='/web/hobbies' component={Hobbies}></Route>
         <Route exact path='/web/contact' component={Contact}></Route>
     </Switch>

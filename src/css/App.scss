@@ -37,10 +37,11 @@ html {
   margin: auto;
   width: 60%;
   min-width: 900px;
-  height: 70%;
+  height: 80%;
   border-style: solid;
   border-width: 2px;
   border-color: black;
+  z-index: 1;
 }
 
 .content-background {
@@ -104,8 +105,18 @@ img {
   margin-bottom: -6px;
 }
 
-.bgImage {
-  background-image: url("../images/landscape.jpg");
+.bg-container {
+  height: 100vh;
+  position: static;
+  z-index:-2;
+  background-color: black;
+}
+
+.image {
+  height: 100%;
+  position: static;
+  z-index:-1;
+  display: none;
 }
 
 #cover-photo-container {
@@ -118,6 +129,31 @@ img {
   position: absolute;
   margin: 10px;
   right: 0px;
+}
+
+.card-title {
+  padding: 10px !important;
+}
+
+.project-card {
+  margin: 10px;
+  cursor: pointer;
+
+  .card {
+    margin: 0px;
+  }
+}
+
+.project-card:hover {
+  border: solid 3px #2196f3;
+  margin: 7px;
+}
+
+.card {
+  background-color: rgba(130, 130, 130, 0.25);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(100, 100, 100);
 }
 
 @import 'navigation';

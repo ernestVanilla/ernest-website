@@ -67,7 +67,7 @@ export default class About extends Component {
               <br/>
               <br/>
               <p>Name: Ernest Villa</p>
-              <p>Age: 21</p>
+              <p>Age: 22</p>
               <p>School: University of Toronto</p>
               <p>Developer Experience: 1 year</p>
               <Collapsible>

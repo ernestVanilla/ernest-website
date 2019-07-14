@@ -12,12 +12,6 @@ nav ul li{
   height: 100px;
 }
 
-// .nav-strip {
-//   height: 100%;
-//   width: 1%;
-//   float: right;
-// }
-
 .nav-div {
   height: 100%;
   width: 15%;
@@ -48,6 +42,8 @@ nav ul li{
 /* Handle on hover */
 .content-red::-webkit-scrollbar-thumb:hover {	background: #d32f2f; }
 /* Track */
+.content-red::-webkit-scrollbar-track {	background: #ffcdd2; }
+/* Track */
 .scroll-bg-red::-webkit-scrollbar-track {	background: #f44336; }
 
 
@@ -55,6 +51,8 @@ nav ul li{
 .content-purple::-webkit-scrollbar-thumb { background: #9c27b0; }
 /* Handle on hover */
 .content-purple::-webkit-scrollbar-thumb:hover {	background: #7b1fa2; }
+/* Track */
+.content-purple::-webkit-scrollbar-track {	background: #e1bee7; }
 /* Track */
 .scroll-bg-purple::-webkit-scrollbar-track {	background: #9c27b0; }
 
@@ -64,6 +62,8 @@ nav ul li{
 /* Handle on hover */
 .content-blue::-webkit-scrollbar-thumb:hover {	background: #1976d2; }
 /* Track */
+.content-blue::-webkit-scrollbar-track {	background: #bbdefb; }
+/* Track */
 .scroll-bg-blue::-webkit-scrollbar-track {	background: #2196f3; }
 
 
@@ -72,6 +72,8 @@ nav ul li{
 /* Handle on hover */
 .content-green::-webkit-scrollbar-thumb:hover {	background: #388e3c; }
 /* Track */
+.content-green::-webkit-scrollbar-track {	background: #c8e6c9; }
+/* Track */
 .scroll-bg-green::-webkit-scrollbar-track {	background: #4caf50; }
 
 
@@ -79,5 +81,7 @@ nav ul li{
 .content-amber::-webkit-scrollbar-thumb { background: #ffc107; }
 /* Handle on hover */
 .content-amber::-webkit-scrollbar-thumb:hover {	background: #ffa000; }
+/* Track */
+.content-amber::-webkit-scrollbar-track {	background: #ffecb3; }
 /* Track */
 .scroll-bg-amber::-webkit-scrollbar-track {	background: #ffc107; }

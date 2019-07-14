@@ -9,6 +9,10 @@ const Contact = () => (
     <div className="divider"></div>
     <div className="divider"></div>
     <div className="divider"></div>
+    <br/><br/>
+    <p>Email: ernestvanilla@gmail.com</p>
+    <p>Discord: Ernest#3271</p>
+    <p>Phone number: 289-689-8051</p>
     <div className="section">
 
     </div>
