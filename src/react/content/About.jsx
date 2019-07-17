@@ -28,7 +28,7 @@ export default class About extends Component {
 
               <p>I live in Milton with my parents and brother. I recently graduated from the
                 University of Toronto Mississauga (UTM Campus), double majoring in Computer Science
-                and Statistics as well as minoring in Mathematics. I'm also taking a year off to work at harpLabs for my internship.
+                and Statistics as well as minoring in Mathematics. I also have over a year of professional development experience in web and app consulting.
               </p><br/>
 
               <p>While I'm not coding away, I like to play guitar, exercise,

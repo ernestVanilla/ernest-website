@@ -22,8 +22,8 @@ const Home = () => (
           </p>
           <br />
           <p>Here you can learn more about myself, my hobbies, skills and pretty much
-            whatever I feel like posting here. </p>
-          <p>Feel free to roam around!</p>
+            whatever I feel like posting here. This website is still under progress so expect some updates in the near future.</p>
+          <p>In the meantime, feel free to roam around!</p>
         </div>
         <div className="col s4">
           <br />
