@@ -3,7 +3,7 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import Home from './content/Home';
 import About from './content/About';
 import { Projects } from './content/Projects/Projects';
-import Hobbies from './content/Hobbies';
+import Resume from './content/Resume';
 import Contact from './content/Contact';
 import { NAV_COLORS } from './global/Constants';
 
@@ -21,8 +21,8 @@ export class NavBar extends React.Component {
         return (
             <div className="nav-div">
                 <nav className="grey darken-2">
-                    <ul className="nav-ul white">
-                        <a href="/"><img id='nav-logo' src={require('../images/logo.png')} alt=""></img></a>
+                    <ul className="nav-ul black">
+                        <a href="/"><img id='nav-logo' src={require('../images/profile_icon.png')} alt=""></img></a>
                     </ul>
                     <ul className={"waves-effect " + (page === 'home' ? NAV_COLORS[page] : undefined)} onClick={this.props.onSelect.bind(this, 'home')}>
                         <NavLink exact to='/web/home'>Home</NavLink> 
@@ -33,8 +33,8 @@ export class NavBar extends React.Component {
                     <ul className={"waves-effect " + (page === 'projects' ? NAV_COLORS[page] : undefined)} onClick={this.props.onSelect.bind(this, 'projects')}>
                         <NavLink exact to='/web/projects'>Projects</NavLink>
                     </ul>
-                    <ul className={"waves-effect " + (page === 'hobbies' ? NAV_COLORS[page] : undefined)} onClick={this.props.onSelect.bind(this, 'hobbies')}>
-                        <NavLink exact to='/web/hobbies'>Hobbies</NavLink>
+                    <ul className={"waves-effect " + (page === 'resume' ? NAV_COLORS[page] : undefined)} onClick={this.props.onSelect.bind(this, 'resume')}>
+                        <NavLink exact to='/web/resume'>Resume</NavLink>
                     </ul>
                     <ul className={"waves-effect " + (page === 'contact' ? NAV_COLORS[page] : undefined)} onClick={this.props.onSelect.bind(this, 'contact')}>
                         <NavLink exact to='/web/contact'>Contact</NavLink>
@@ -53,7 +53,7 @@ export const Main = () => (
         <Route exact path='/web/home' component={Home}></Route>
         <Route exact path='/web/about' component={About}></Route>
         <Route path='/web/projects' component={Projects}></Route>
-        <Route exact path='/web/hobbies' component={Hobbies}></Route>
+        <Route exact path='/web/resume' component={Resume}></Route>
         <Route exact path='/web/contact' component={Contact}></Route>
     </Switch>
 );

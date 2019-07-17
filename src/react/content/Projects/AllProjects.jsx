@@ -61,7 +61,7 @@ export default class AllProjects extends Component {
       <div className="divider"></div>
       <div className="divider"></div>
       <div className="section"><br />
-        <h4 className="center">Click a project to learn more!</h4>
+        <h4 className="center">Sorry, this area is under construction!</h4>
         <br/>
         {projectDivs}
       </div>

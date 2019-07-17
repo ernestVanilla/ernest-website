@@ -26,9 +26,9 @@ export default class About extends Component {
             <div className="col s7">
               <p>My name is Ernest Villa and I'm an aspiring Full Stack Web Developer.</p><br/>
 
-              <p>I live in Milton with my parents and brother. Currently, I'm a student attending 
+              <p>I live in Milton with my parents and brother. I recently graduated from the
                 University of Toronto Mississauga (UTM Campus), double majoring in Computer Science
-                and Statistics. I'm also taking a year off to work at harpLabs for my internship.
+                and Statistics as well as minoring in Mathematics. I'm also taking a year off to work at harpLabs for my internship.
               </p><br/>
 
               <p>While I'm not coding away, I like to play guitar, exercise,
@@ -63,7 +63,7 @@ export default class About extends Component {
               </p>
             </div>
             <div className="col s5 panel">
-              <img src={require('../../images/self.jpg')} alt="Profile of Ernest Villa" />
+              <img id="self" src={require('../../images/self.jpg')} alt="Profile of Ernest Villa" />
               <br/>
               <br/>
               <p>Name: Ernest Villa</p>

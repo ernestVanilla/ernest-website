@@ -39,7 +39,7 @@ const Home = () => (
           <h2>What's Ernest up to??</h2>
           <ul>
             <li><p>&#9656; Currently working on this website.</p></li>
-            <li><p>&#9656; Taking a year off of school for my internship as a Junior Web and App Developer at harpLabs.</p></li>
+            <li><p>&#9656; Actively applying for full stack developer positions.</p></li>
           </ul>
         </div>
         <div className="col s6">

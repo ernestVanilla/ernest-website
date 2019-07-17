@@ -9,7 +9,7 @@ export const NAV_COLORS = {
   'home': 'red',
   'about': 'purple',
   'projects': 'blue',
-  'hobbies': 'green',
+  'resume': 'green',
   'contact': 'amber'
 }
 

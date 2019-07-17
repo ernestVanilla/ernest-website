@@ -108,7 +108,8 @@ img {
 .admin-btn {
   position: absolute;
   margin: 10px;
-  right: 0px; }
+  right: 0px;
+  visibility: hidden; }
 
 .card-title {
   padding: 10px !important; }
@@ -240,6 +241,9 @@ nav ul li {
 
 section.about-section .collapsible-header {
   background-color: transparent !important; }
+
+section.about-section #self {
+  -webkit-transform: rotate(90 deg); }
 
 div.project-div #origin-modal {
   width: 25% !important; }
