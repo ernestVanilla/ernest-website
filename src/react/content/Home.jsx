@@ -12,6 +12,7 @@ const Home = () => (
     <div className="section"><br />
       <div className="row">
         <div className="col s8">
+          <p>test!</p>
           <p>This is my own personal website made using the technology stack below.</p><br />
           <img className="left" src={require('../../images/mernstack.png')} alt=""/>
           <p>
