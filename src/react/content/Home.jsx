@@ -36,7 +36,7 @@ const Home = () => (
     <div className="section">
       <div className="row">
         <div className="col s6">
-          <h2>What's Ernest up to??</h2>
+          <h2>What's Ernest up to?</h2>
           <ul>
             <li><p>&#9656; Currently working on this website.</p></li>
             <li><p>&#9656; Actively applying for full stack developer positions.</p></li>

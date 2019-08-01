@@ -46,7 +46,7 @@ export default class About extends Component {
               </p><br/>
 
               <p>The field of Computer Science appeared to balance everything I wanted while staying 
-              lucrative and flexible. You can work from anywhere, learn from any industry and get paid handsomely!
+              lucrative and flexible. You can work from anywhere, learn from any industry and reach wide scale impact!
               However, the selling point for me was the idea of being able to literally create anything from nothing 
               in a virtual world. This gave me a vast playground to explore, that which rivals 
               my childhood wonder for outer space.
@@ -54,7 +54,7 @@ export default class About extends Component {
 
               <p>Nothing has made me realize that more than my internship at harpLabs. Since harpLabs is
                 a small consulting company, I was exposed to a multitude of different projects and given lots of
-                responsibility over them. From a medical web app to an auto-login plugin for Air Canada,
+                responsibility over them. From a medical web app to an auto-login plugin for a famous airline,
                 I've learned and honed essental skills as well as gained direction in my programming career.
               </p><br/>
               <p>Throughout my time at university I knew I wanted to code, but I lacked a focus. Now I have this new 

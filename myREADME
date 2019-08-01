@@ -1,15 +1,20 @@
 
-scripts
+Scripts
 
 "start": "react-scripts start",
 "build": "react-scripts build",
 "test": "react-scripts test --env=jsdom",
 "eject": "react-scripts eject"
   
-serve static build server
+Serve static build server
 
-npm run build
-serve -s build
+`npm run build`
+`serve -s build`
+
+Deploy to production (LIVE)
+
+`npm run build`
+`netlify deploy --prod`
 
 *** TO START WORKING ON THIS ***
 
