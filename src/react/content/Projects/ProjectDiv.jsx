@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Carousel, Button, Modal } from 'react-materialize';
 import ProjectData from '../../data/project-data';
 
@@ -37,6 +38,7 @@ export default class ProjectDiv extends Component {
     return (
       <section className="project-section">
         <div className="section">
+          <Link className="back-btn btn blue right" to="/web/projects" node="a">Go Back</Link>
           <h1>Projects</h1>
         </div>
         <div className="divider"></div>
@@ -51,6 +53,7 @@ export default class ProjectDiv extends Component {
                   header={origin.name}
                   trigger={<Button className={"chip origin-chip right " + origin.color}
                   >{origin.name}</Button>}>
+                  <br/>
                   <p>{origin.description}</p>
                 </Modal>
                 <span className="left project-name">{name}</span>

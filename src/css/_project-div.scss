@@ -1,3 +1,11 @@
+section.project-section {
+  .back-btn {
+    margin-top: 2.2rem;
+    position: relative;
+    right: 0px;
+  }
+}
+
 div.project-div {
   
   #origin-modal {
@@ -16,12 +24,21 @@ div.project-div {
     margin-top: 15px;
     margin-bottom: 10px;
   }
+
 }
 
 div.project-card {
   
   .card-content {
     color: white;
+  }
+
+  .origin-title {
+    font-size: 12px;
+    padding: 7px 12px;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
   }
   
   // .card-image {

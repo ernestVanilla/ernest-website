@@ -46,7 +46,7 @@ html {
 
 .content-background {
   color: white;
-  background-color: rgba(0,0,0, 0.85);
+  background-color: rgba(0,0,0, 0.93);
   width: 85%;
   height: 100%;
   padding: auto;
@@ -156,6 +156,8 @@ img {
   border-width: 1px;
   border-color: rgb(100, 100, 100);
 }
+
+.modal { width: 600px !important; }
 
 @import 'navigation';
 @import 'about-section';

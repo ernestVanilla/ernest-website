@@ -40,6 +40,7 @@ export default class ProjectCard extends Component {
           
           <div className='card'>
             <div className="card-image">
+              <span className={"origin-title black-text " + origin.color}>{origin.name.toUpperCase()}</span>
               <img src={img} />
               <span className={"card-title " + color}>{name}</span>
             </div>

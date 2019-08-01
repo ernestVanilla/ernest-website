@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink, Switch, Route } from 'react-router-dom';
 import Home from './content/Home';
 import About from './content/About';
-import { Projects } from './content/Projects/Projects';
+import AllProjects from './content/Projects/AllProjects';
+import ProjectDiv from './content/Projects/ProjectDiv';
 import Resume from './content/Resume';
 import Contact from './content/Contact';
 import { NAV_COLORS } from './global/Constants';
@@ -52,7 +53,8 @@ export const Main = () => (
     <Switch>
         <Route exact path='/web/home' component={Home}></Route>
         <Route exact path='/web/about' component={About}></Route>
-        <Route path='/web/projects' component={Projects}></Route>
+        <Route exact path='/web/projects' component={AllProjects}></Route>
+        <Route exact path='/web/projects/:project' component={ProjectDiv} />
         <Route exact path='/web/resume' component={Resume}></Route>
         <Route exact path='/web/contact' component={Contact}></Route>
     </Switch>
