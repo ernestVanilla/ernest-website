@@ -3,7 +3,8 @@ import winter from '../../images/winter.jpg';
 import spring from '../../images/spring.jpg';
 import summer from '../../images/summer.jpg';
 
-export const DOMAIN = 'http://localhost:3000/';
+// export const DOMAIN = 'http://localhost:3000/';
+export const DOMAIN = 'https://ernest-website.netlify.com/';
 
 export const NAV_COLORS = {
   'home': 'red',

@@ -40,7 +40,7 @@ html {
 
 .content-background {
   color: white;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.93);
   width: 85%;
   height: 100%;
   padding: auto;
@@ -129,6 +129,9 @@ img {
   border: solid;
   border-width: 1px;
   border-color: #646464; }
+
+.modal {
+  width: 600px !important; }
 
 nav {
   width: 100%;
@@ -245,6 +248,11 @@ section.about-section .collapsible-header {
 section.about-section #self {
   -webkit-transform: rotate(90 deg); }
 
+section.project-section .back-btn {
+  margin-top: 2.2rem;
+  position: relative;
+  right: 0px; }
+
 div.project-div #origin-modal {
   width: 25% !important; }
 
@@ -260,3 +268,10 @@ div.project-div div.carousel {
 
 div.project-card .card-content {
   color: white; }
+
+div.project-card .origin-title {
+  font-size: 12px;
+  padding: 7px 12px;
+  position: absolute;
+  z-index: 1;
+  right: 0px; }
