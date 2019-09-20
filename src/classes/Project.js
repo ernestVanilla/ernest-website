@@ -1,7 +1,17 @@
 export default class Project {
-
-  constructor({name, tldr, color, origin, description, contribution, task, img, 
-    imgList, readMoreLink, visitLink }) {
+  constructor({
+    name,
+    tldr,
+    color,
+    origin,
+    description,
+    contribution,
+    task,
+    img,
+    imgList,
+    readMoreLink,
+    visitLink
+  }) {
     this.name = name;
     this.tldr = tldr;
     this.color = color;
@@ -15,7 +25,6 @@ export default class Project {
   }
 
   formatSlug() {
-    console.log(this.name.replace(' ', '_'));
-    return this.name.replace(' ', '_');
+    return this.name.replace(" ", "_");
   }
 }
